@@ -6,11 +6,12 @@ NCSC-NL will use the following status:
 
 | Status         | Description                  |
 |:---------------|:-----------------------------|
+| Suspect        | Software seems vulnerable. Not confirmed by developer. |
 | Vulnerable     | Software is vulnerable for CVE-2021-44228. |
 | Fix            | Software contains a fix for CVE-2021-44228 |
 | Workaround | Software is vulnerable but mitigation steps are available |
 | Not vuln     | Software is **NOT** vulnerable for CVE-2021-44228. |
-| Investigation     | Software is under investigation whether it is vulnerable or not |
+| Investigation     | Software is under investigation by its developer to determine whether it is vulnerable or not |
 
 **NCSC-NL has published a HIGH/HIGH advisory for the Log4j vulnerability. Normally we would update the HIGH/HIGH advisory for vulnerable software packages, however due to the extensive amounts of expected updates we have created a list of known vulnerable software in the software directory.**
 
